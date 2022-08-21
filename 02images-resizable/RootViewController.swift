@@ -48,15 +48,11 @@ class RootViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .systemGray
         
-        self.view.addSubview(tileButton)
-        tileButton.frame = CGRect(x: 0, y: 50, width: self.view.bounds.width, height: 50)
-        tileButton.autoresizingMask = [.flexibleWidth]
-        
-        self.view.addSubview(stretchButton)
-        stretchButton.frame = CGRect(x: 0, y: 100, width: self.view.bounds.width, height: 50)
-        stretchButton.autoresizingMask = [.flexibleWidth]
-    
-        
+        for (index, b) in [tileButton,stretchButton].enumerated() {
+            self.view.addSubview(b)
+            b.autoresizingMask = [.flexibleWidth]
+            b.frame = CGRect(x: 0, y: 50 + index * 50 , width: Int(self.view.bounds.width), height: 50)
+        }
         
         
         
