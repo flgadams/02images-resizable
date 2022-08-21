@@ -12,6 +12,8 @@
 		2102187A2895B92300195DC9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210218792895B92300195DC9 /* RootViewController.swift */; };
 		2102187F2895B92400195DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2102187E2895B92400195DC9 /* Assets.xcassets */; };
 		210218822895B92400195DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210218802895B92400195DC9 /* LaunchScreen.storyboard */; };
+		21E909F928B266080063F7AE /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E909F828B266080063F7AE /* TileViewController.swift */; };
+		21E909FB28B266F40063F7AE /* StretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E909FA28B266F40063F7AE /* StretchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2102187E2895B92400195DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210218812895B92400195DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210218832895B92400195DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E909F828B266080063F7AE /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
+		21E909FA28B266F40063F7AE /* StretchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				210218752895B92300195DC9 /* AppDelegate.swift */,
 				210218772895B92300195DC9 /* SceneDelegate.swift */,
 				210218792895B92300195DC9 /* RootViewController.swift */,
+				21E909FA28B266F40063F7AE /* StretchViewController.swift */,
 				2102187E2895B92400195DC9 /* Assets.xcassets */,
 				210218802895B92400195DC9 /* LaunchScreen.storyboard */,
 				210218832895B92400195DC9 /* Info.plist */,
+				21E909F828B266080063F7AE /* TileViewController.swift */,
 			);
 			path = "02images-resizable";
 			sourceTree = "<group>";
@@ -134,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E909F928B266080063F7AE /* TileViewController.swift in Sources */,
 				2102187A2895B92300195DC9 /* RootViewController.swift in Sources */,
+				21E909FB28B266F40063F7AE /* StretchViewController.swift in Sources */,
 				210218762895B92300195DC9 /* AppDelegate.swift in Sources */,
 				210218782895B92300195DC9 /* SceneDelegate.swift in Sources */,
 			);
